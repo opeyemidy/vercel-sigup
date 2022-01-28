@@ -1,5 +1,5 @@
 import React, { CSSProperties } from 'react';
-import Logo from '../assets/icons/Logo';
+import Logo from '../assets/icons/LogoBig';
 import Info from '../components/Info';
 import contents from '../data/contents';
 import ImageContainer from './ImageContainer';

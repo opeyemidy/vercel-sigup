@@ -2,10 +2,9 @@ import React, { FC, useState } from 'react';
 interface Props {
   title?: string;
   items: object[];
-  icon: object;
 }
 
-const FooterGroup: FC<Props> = ({ title, items, icon }) => {
+const FooterGroup: FC<Props> = ({ title, items }) => {
   const [checked, setChecked] = useState(false);
   return (
     <>
