@@ -1,20 +1,22 @@
 import React from 'react';
 
-export default function Dark() {
+export default function LinkIcon() {
   return (
     <svg
       viewBox="0 0 24 24"
-      width="16"
-      height="16"
+      width="1em"
+      height="1em"
       stroke="currentColor"
       strokeWidth="1.5"
       strokeLinecap="round"
       strokeLinejoin="round"
       fill="none"
       shapeRendering="geometricPrecision"
-      style={{ color: 'currentcolor' }}
+      style={{ color: 'currentColor' }}
     >
-      <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+      <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+      <path d="M15 3h6v6"></path>
+      <path d="M10 14L21 3"></path>
     </svg>
   );
 }

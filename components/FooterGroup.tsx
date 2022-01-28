@@ -2,9 +2,10 @@ import React, { FC, useState } from 'react';
 interface Props {
   title?: string;
   items: object[];
+  icon: object;
 }
 
-const FooterGroup: FC<Props> = ({ title, items }) => {
+const FooterGroup: FC<Props> = ({ title, items, icon }) => {
   const [checked, setChecked] = useState(false);
   return (
     <>
@@ -21,7 +22,7 @@ const FooterGroup: FC<Props> = ({ title, items }) => {
           {items.map((item: any, i) => (
             <li className="footer-item" key={i}>
               <a href={item.link} className="link link-secondary">
-                {item.label}
+                {item.label} {item.icon ? item.icon : ''}
               </a>
             </li>
           ))}

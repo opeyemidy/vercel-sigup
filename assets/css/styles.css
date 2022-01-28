@@ -171,6 +171,10 @@ p {
   justify-content: space-between;
   align-items: center;
 }
+.feature-img-1 span {
+  display: block;
+  text-align: center;
+}
 @media (max-width: 960px) {
   .feature-img-1 {
     display: none;

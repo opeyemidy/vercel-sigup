@@ -12,7 +12,7 @@ export default function Light() {
       strokeLinejoin="round"
       fill="none"
       shapeRendering="geometricPrecision"
-      style="color: currentcolor;"
+      style={{ color: 'currentcolor' }}
     >
       <circle cx="12" cy="12" r="5"></circle>
       <path d="M12 1v2"></path>

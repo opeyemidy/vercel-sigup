@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function twitter() {
+export default function Twitter() {
   return (
     <svg
       height="16"
