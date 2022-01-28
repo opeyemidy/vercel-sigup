@@ -1,14 +1,42 @@
 :root {
-  --background: white;
-  --text-primary: black;
-  --text-secondary: royalblue;
-  --accent: purple;
+  --fonts: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  --background: #fff;
+  --text-primary: #000;
+  --text-secondary: #666;
+  --color-dark-1: #333;
+  --color-dark-2: #111;
+  --text-link: #0070f3;
+  --page-width-with-margin: 1048px;
+  --page-margin: 24px;
+  --flex: 1;
+  --justify-content: center;
+  --align-items: center;
+  --fill-color: currentColor;
+  --content-length: 35ch;
+  --button-custom-text: #fff;
+  --button-custom-bg: #24292e;
+  --button-custom-border: #24292e;
+  --success-light: #0070f3;
+  --button-custom-hover-bg: #555;
+  --button-custom-hover-border: #555;
+  --button-custom-hover-text: #fff;
+  --accents-2: #eaeaea;
+  --accents-1: #fafafa;
+  --primary: #0070f3;
+  /* ghhhhhchhhfhhfhgfhghgfh */
 }
 
 [data-theme='dark'],
 [data-theme='system'] {
-  --background: black;
-  --text-primary: white;
-  --text-secondary: grey;
-  --accent: darkred;
+  --background: #000;
+  --text-primary: #fff;
+
+  --text-color-main: #fff;
+  --text-secondary: #888;
+  --app-background: #000;
+  --success-light: #3291ff;
+  --accents-2: #333;
+  --accents-1: #111;
 }
